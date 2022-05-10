@@ -8,7 +8,7 @@ const Header = ({ title = 'Header' }) => {
     return (
         <header style={header}>
             <label style={menu} htmlFor="icon-button-file">
-                <IconButton color="primary" aria-label="upload picture" component="span">
+                <IconButton color="primary" aria-label="menu" component="span">
                     <MenuIcon />
                 </IconButton>
             </label>
