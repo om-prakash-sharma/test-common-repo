@@ -3,12 +3,17 @@ const header = {
     top: 0,
     height: '50px',
     backgroundColor: '#2a5fca',
-    display: 'flex',
-    flexDirection: 'column',
+    display: 'block',
+    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     color: 'white'
 }
 
+const menu = {
+    float: "left",
+    width: "50px",
+    padding: "4px"
+}
 
-export default header;
+export { menu, header };
