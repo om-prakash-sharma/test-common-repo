@@ -1,10 +1,10 @@
 import React from 'react';
 import headerStyle from "./style";
 
-const Header = () => {
+const Header = ({ title = 'Header' }) => {
     return (
         <header style={headerStyle}>
-            Common repo test 2
+            {title}
         </header>
     )
 }

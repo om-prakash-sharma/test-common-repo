@@ -1,10 +1,10 @@
 import React from 'react';
 import footerStyle from "./style";
 
-const Header = () => {
+const Header = ({ title = "Footer" }) => {
     return (
         <footer style={footerStyle}>
-            test @ 2022
+            {title} @ {new Date().getFullYear()}
         </footer>
     )
 }
